@@ -1,0 +1,51 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Scope of simulation}{chapter.1}% 2
+\BOOKMARK [0][-]{chapter.2}{NavIC System Overview}{}% 3
+\BOOKMARK [1][-]{section.2.1}{The Frequency Bands}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{L-band}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{S-band}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{NavIC Architecture}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Space segment}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{Ground segment}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.3}{User segment}{section.2.2}% 10
+\BOOKMARK [1][-]{section.2.3}{NavIC Services}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.3.1}{Standard Positioning Service \(SPS\)}{section.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.3.2}{Restricted Service \(RS\)}{section.2.3}% 13
+\BOOKMARK [0][-]{chapter.3}{Navigation Data}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Frame structure}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.1.1}{L1 SPS DATA STRUCTURE}{section.3.1}% 16
+\BOOKMARK [1][-]{section.3.2}{Cyclic Redundancy Check\(CRC\)}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Simulation Approach}{}% 18
+\BOOKMARK [0][-]{chapter.5}{Transmitter}{}% 19
+\BOOKMARK [1][-]{section.5.1}{Encoding}{chapter.5}% 20
+\BOOKMARK [2][-]{subsection.5.1.1}{BCH Coding}{section.5.1}% 21
+\BOOKMARK [2][-]{subsection.5.1.2}{LDPC}{section.5.1}% 22
+\BOOKMARK [2][-]{subsection.5.1.3}{Interleaving}{section.5.1}% 23
+\BOOKMARK [2][-]{subsection.5.1.4}{PRN codes for SPS}{section.5.1}% 24
+\BOOKMARK [2][-]{subsection.5.1.5}{Secondary Overlay Code Generator Architecture}{section.5.1}% 25
+\BOOKMARK [1][-]{section.5.2}{Modulation}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.2.1}{Standard Positioning Service}{section.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.2}{Baseband Modulation}{section.5.2}% 28
+\BOOKMARK [0][-]{chapter.6}{Channel Modelling}{}% 29
+\BOOKMARK [1][-]{section.6.1}{Doppler shift}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.2}{Delay}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.3}{Power Scaling}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.4}{Thermal noise}{chapter.6}% 33
+\BOOKMARK [0][-]{chapter.7}{Receiver}{}% 34
+\BOOKMARK [1][-]{section.7.1}{Signal Acquistion}{chapter.7}% 35
+\BOOKMARK [2][-]{subsection.7.1.1}{Implementation of CA PCPS Acquisition}{section.7.1}% 36
+\BOOKMARK [1][-]{section.7.2}{Tracking}{chapter.7}% 37
+\BOOKMARK [2][-]{subsection.7.2.1}{Carrier and code wipeoff}{section.7.2}% 38
+\BOOKMARK [2][-]{subsection.7.2.2}{Pre-detection and integration}{section.7.2}% 39
+\BOOKMARK [2][-]{subsection.7.2.3}{Baseband signal processing}{section.7.2}% 40
+\BOOKMARK [1][-]{section.7.3}{Local PRN Generation}{chapter.7}% 41
+\BOOKMARK [1][-]{section.7.4}{Demodulation}{chapter.7}% 42
+\BOOKMARK [1][-]{section.7.5}{Decoding}{chapter.7}% 43
+\BOOKMARK [2][-]{subsection.7.5.1}{Process}{section.7.5}% 44
+\BOOKMARK [2][-]{subsection.7.5.2}{Maximum Likelihood Decoding}{section.7.5}% 45
+\BOOKMARK [2][-]{subsection.7.5.3}{Deinterleaving}{section.7.5}% 46
+\BOOKMARK [2][-]{subsection.7.5.4}{Belief Propagation}{section.7.5}% 47
+\BOOKMARK [0][-]{chapter.8}{Results}{}% 48
+\BOOKMARK [1][-]{section.8.1}{Acquisition}{chapter.8}% 49
+\BOOKMARK [1][-]{section.8.2}{Tracking and Decoding}{chapter.8}% 50
+\BOOKMARK [0][-]{appendix.A}{References}{}% 51
